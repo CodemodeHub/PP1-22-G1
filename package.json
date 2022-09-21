@@ -1,0 +1,21 @@
+{
+  "name": "PP1-2022-Fall",
+  "version": "1.0.0",
+  "description": "- Week 1 https://slides.com/adilzhapar/lesson-1 - Week 2 https://slides.com/adilzhapar/lesson-2 - Week 2, part 2 https://slides.com/adilzhapar/lesson-3-4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodemodeHub/PP1-2022-Fall.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodemodeHub/PP1-2022-Fall/issues"
+  },
+  "homepage": "https://github.com/CodemodeHub/PP1-2022-Fall#readme"
+}
