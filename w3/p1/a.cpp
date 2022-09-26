@@ -6,26 +6,21 @@ int main(){
     int n;
     cin >> n;
 
-    int a[n];
+    int maxx = INT_MIN;
+    int minn = INT_MAX;
 
     for(int i = 0; i < n; i++){
-        cin >> a[i];
-    }
-
-    for(int i = 0; i < n - 1; i++){
-        for(int j = i+1; j < n; j++){
-            if(a[i] > a[j]){
-                int x = a[i];
-                a[i] = a[j];
-                a[j] = x;
-            }
+        int x;
+        cin >> x;
+        if(x > maxx){
+            maxx = x;
+        }
+        if(x < minn){
+            minn = x;
         }
     }
 
-    for(int i = 0; i< n; i++){
-        cout << a[i];
-    }
-
+    cout << maxx - minn << endl;
 
     return 0;
 }
