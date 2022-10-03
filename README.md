@@ -10,3 +10,16 @@ https://slides.com/adilzhapar/lesson-3-4
 https://slides.com/turdalynnurasyl/codemode-pp1-l56
 - Week 4
 https://slides.com/adilzhapar/lesson-7-8
+
+
+SHORTCUTS:
+
+copy line: shift + alt + arrow
+
+move line: alt + arrow
+
+open terminal: ctrl + ~
+
+screenshot: windows + shift + s
+
+hide left-panel: ctrl + B
