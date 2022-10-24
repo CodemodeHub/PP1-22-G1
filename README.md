@@ -1,15 +1,19 @@
 # PP1-2022-Fall
 
-- Week 1
+- What is a programming?
 https://slides.com/adilzhapar/lesson-1
-- Week 2
+- Conditions
 https://slides.com/adilzhapar/lesson-2
-- Week 2, part 2
+- Loops
 https://slides.com/adilzhapar/lesson-3-4
-- Week 3
+- Arrays
 https://slides.com/turdalynnurasyl/codemode-pp1-l56
-- Week 4
+- Double array
 https://slides.com/adilzhapar/lesson-7-8
+- Strings
+https://slides.com/turdalynnurasyl/codemode-pp1-l78
+- Functions
+https://slides.com/adilzhapar/lesson-l11-12
 
 
 SHORTCUTS:
