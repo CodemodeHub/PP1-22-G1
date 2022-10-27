@@ -13,7 +13,7 @@ https://slides.com/adilzhapar/lesson-7-8
 - Strings
 https://slides.com/turdalynnurasyl/codemode-pp1-l78
 - Functions
-https://slides.com/adilzhapar/lesson-l11-12
+https://slides.com/adilzhapar/codemode-pp1-l11-12
 
 
 SHORTCUTS:
