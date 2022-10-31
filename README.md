@@ -17,26 +17,26 @@ https://slides.com/adilzhapar/codemode-pp1-l11-12
 - Recursion
 https://slides.com/zhaparka/codemode-pp1-l13-14
 
-SHORTCUTS:
+**SHORTCUTS:**
 
-copy line: shift + alt + arrow
+- copy line: shift + alt + arrow
 
-move line: alt + arrow
+- move line: alt + arrow
 
-open terminal: ctrl + ~
+- open terminal: ctrl + ~
 
-screenshot: windows + shift + s
+- screenshot: windows + shift + s
 
-hide left-panel: ctrl + B
+- hide left-panel: ctrl + B
 
 
-SNIPPETS: 
-snippets are template, which will prepare default code by typing key word
+**SNIPPETS:** <br> 
+snippets are templates, which will prepare default code by typing key word
 
 settings -> configure user snippets -> cpp.json
 
 then paste code below:
-
+```
 "Print to console": {
 		"prefix": "qwe",
 		"body": [
@@ -51,4 +51,5 @@ then paste code below:
 			"}"
 
 		]
-	},
+	}
+```
