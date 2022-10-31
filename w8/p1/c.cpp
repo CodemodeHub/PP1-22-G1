@@ -10,11 +10,16 @@ long long fac(int n){
     }
 }
 
+int nFactorial(int i, int n){
+    if(i >= n) return i;
+    return i * nFactorial(i + 1,n);
+}
+
 int main(){
     int n;
     cin >> n;
 
-    cout << fac(n);
+    cout << nFactorial(1, n);
 
     return 0;
 }
