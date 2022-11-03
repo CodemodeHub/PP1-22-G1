@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// TIME LIMIT ERROR
+
 int getEqual(int a[], int b[], int n){
     int cnt = 0;
     for(int i = 0; i < n; i++){
