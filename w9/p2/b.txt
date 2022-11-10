@@ -1,0 +1,13 @@
+Write the function which takes string _s_ and prints encoded string
+1)
+AAA
+3A
+
+2) AAABBBCCC
+3A3B3C
+
+3) AAAaaaaBbbb
+3A4a1B3b
+
+4) SSIIIIIIIIIIIUUUU
+2S11I4U
