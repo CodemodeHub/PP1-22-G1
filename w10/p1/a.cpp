@@ -1,26 +1,31 @@
 #include <iostream>
 
 using namespace std;
-char arr[100][100];
+char arr[10][10];
+int cnt = 0;
 
-int scanner(int n, int x, int y, int cnt){
-    if(x < 0 || x >= n) return cnt;
-    if(arr[y-1][x-1] == '*'){
-        return 
+void checkRooms(int n, int col, int row){
+    arr[row][col] = '*';
+    cnt++;
+
+    if(row - 1 >= 0 && arr[row - 1][col] == '.'){
+        checkRooms(n, col, row - 1);
+    }
+    if(row + 1 < n && arr[row + 1][col] == '.'){
+        checkRooms(n, col, row + 1);
+    }
+    if(col - 1 >= 0 && arr[row][col - 1] == '.'){
+        checkRooms(n, col - 1, row);
+    }
+    if(col + 1 < n && arr[row][col + 1] == '.'){
+        checkRooms(n, col + 1, row);
     }
 
 }
 
-
-
 int main(){
-    int n;
-    cin >> n;
-
-    int x, y;
-
-    cin >> x >> y;
-
+    int n, x, y;
+    cin >> n >> x >> y;
 
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
@@ -28,6 +33,10 @@ int main(){
         }
     }
 
-    int res = scanner(n, x, y, 1);
+
+    checkRooms(n, x - 1, y - 1);
+
+    cout << cnt << endl;
+
     return 0;
 }
