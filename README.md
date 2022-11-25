@@ -16,7 +16,7 @@ https://slides.com/turdalynnurasyl/codemode-pp1-l78
 https://slides.com/adilzhapar/codemode-pp1-l11-12
 - Recursion
 https://slides.com/zhaparka/codemode-pp1-l13-14
-- Vector, sets
+- Vector, sets <br>
 our clever teacher Raiymek has decided to make presentation in PowerPoint, so there is no link unfortunately))
 - Map, Pair
 https://slides.com/turdalynnurasyl/codemode-pp1-l9-10
