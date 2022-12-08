@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-
+// pair<string, pair<int,int> >
 using namespace std;
 bool my_comp(pair<string,pair<int, int>>& a, pair<string,pair<int, int>>& b){
     if(a.second.first == b.second.first){
