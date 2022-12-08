@@ -21,6 +21,8 @@ int x=-1;
 long long GenPow(){
     x++;
     return Power(x, x);
+    // return powl(x, x);
+
 }
 
 int main(){
