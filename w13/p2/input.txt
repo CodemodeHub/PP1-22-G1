@@ -1,0 +1,8 @@
+7
+Messi 34 13 7
+Ronaldo 37 12 8
+Yaslan 18 30 2
+Alikhan 19 3 24
+Kairosh 30 25 25
+Iniesta 40 30 40
+Neymar 33 25 17
